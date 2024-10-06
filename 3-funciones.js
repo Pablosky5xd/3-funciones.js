@@ -8,7 +8,7 @@ function despedir() {
 
 
 // 1.2 Crea una función llamada `multiplicarPorDos` que tome un número como parámetro y devuelva el doble de ese número.
-function multplicarPorDos(numero) {
+function multiplicarPorDos(numero) {
     return numero * 2;
 }
 // 1.3 Crea una función llamada `esMayorDeEdad` que tome un número como parámetro y devuelva `true` si es mayor de 18, o `false` en caso contrario.
@@ -84,13 +84,13 @@ console.log(esPar( ))
 
 // 4. Funciones Flecha
 // 4.1 Convierte la siguiente función en una función flecha llamada multiplicarFlecha:
-// function multiplicar(a, b) {
-//     return a * b;
-// }
-const multiplicar = (a, b) =>{
+function multiplicar(a, b) {
+     return a * b;
+ }
+const multiplicarFlecha = (a, b) =>{
     return a * b
 }
-console.log(multiplicar(2,3))
+console.log(multiplicarFlecha(2,3))
 // 4.2 Crea una función flecha llamada `saludarFlecha` que reciba un parámetro `nombre` y devuelva "Hola [nombre]".
 const saludarFlecha = (nombre) => {
     return "hola " + nombre
