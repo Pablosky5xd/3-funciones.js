@@ -41,8 +41,8 @@ console.log("Hola " + nombreApellido)
 function calcularPotencia(base, exponente) {
     return base ** exponente
 }
-const potencia = calcularPotencia(5, 2)
-console.log(potencia)
+const potenciaResultado = calcularPotencia(5, 2)
+console.log(potenciaResultado)
 
 // 2.4 Escribe una función llamada `restar` que reciba dos parámetros y devuelva la diferencia entre ellos.
 function restar(a, b) {
