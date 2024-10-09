@@ -107,13 +107,13 @@ console.log(calcularArea(10))
 // 5. Recursividad
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
 function suma(numero) {
-   if (numero === 2){
-return 2
+   if (numero === 0){
+return 0
    }else {
     return numero + suma( numero -1)
    }
 }
-console.log(suma(5))
+console.log(suma(3))
 // 5.2 Escribe una función que calcule la sucesión de Fibonacci de forma recursiva. La sucesión de Fibonacci es una serie de números que empieza por 0 y 1 y cada número es la suma de los dos anteriores. Por ejemplo: `fibonacci(6) -> 8`
 function fibonacci(n) {
     if (n === 0) {
